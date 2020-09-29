@@ -12,6 +12,8 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
@@ -74,37 +76,68 @@ public class IkasleenTaulaController implements Initializable {
         //Table view elementua fxml-an editable dela adierazita daukagula, zelden editatzeak ondo funtzionatzeko:
         zenbakiaCol.setCellFactory(TextFieldTableCell.<Ikaslea, Integer>forTableColumn(new IntegerStringConverter()));
         zenbakiaCol.setOnEditCommit((TableColumn.CellEditEvent<Ikaslea, Integer> t) -> {
-                    ((Ikaslea) t.getTableView().getItems().get(
-                            t.getTablePosition().getRow())).setZenbakia(t.getNewValue());
-                });
+            ((Ikaslea) t.getTableView().getItems().get(
+                    t.getTablePosition().getRow())).setZenbakia(t.getNewValue());
+        });
 
         izenaCol.setCellFactory(TextFieldTableCell.<Ikaslea>forTableColumn());
         izenaCol.setOnEditCommit((TableColumn.CellEditEvent<Ikaslea, String> t) -> {
-                    ((Ikaslea) t.getTableView().getItems().get(
-                            t.getTablePosition().getRow())).setIzena(t.getNewValue());
-                });
+            ((Ikaslea) t.getTableView().getItems().get(
+                    t.getTablePosition().getRow())).setIzena(t.getNewValue());
+        });
 
         abizena1Col.setCellFactory(TextFieldTableCell.<Ikaslea>forTableColumn());
         abizena1Col.setOnEditCommit((TableColumn.CellEditEvent<Ikaslea, String> t) -> {
-                    ((Ikaslea) t.getTableView().getItems().get(
-                            t.getTablePosition().getRow())).setAbizena1(t.getNewValue());
-                });
+            ((Ikaslea) t.getTableView().getItems().get(
+                    t.getTablePosition().getRow())).setAbizena1(t.getNewValue());
+        });
 
+    }
+
+    public static boolean isNumeric(String strNum) {
+        if (strNum == null) {
+            return false;
+        }
+        try {
+            double d = Double.parseDouble(strNum);
+            return true;
+        } catch (NumberFormatException nfe) {
+            return false;
+        }
     }
 
     @FXML
     private void handleGehituAction(ActionEvent event) {
-        System.out.println("Gehitu botoia sakatu duzu!");
-        //izenburua.setText("Gehitzen...");
-        Ikaslea p = new Ikaslea(
-                Integer.parseInt(addZenbakia.getText()),
-                addIzena.getText(),
-                addAbizena.getText());
-        tableviua.getItems().add(p);
-        System.out.println("Ikasle berria gehitu da.");
-        addZenbakia.setText("");
-        addIzena.setText("");
-        addAbizena.setText("");
+        if (tableviua.getItems().size() < 7) {
+            if (isNumeric(addZenbakia.getText())) {
+                System.out.println("Gehitu botoia sakatu duzu!");
+                //izenburua.setText("Gehitzen...");
+                Ikaslea p = new Ikaslea(
+                        Integer.parseInt(addZenbakia.getText()),
+                        addIzena.getText(),
+                        addAbizena.getText());
+                tableviua.getItems().add(p);
+                System.out.println("Ikasle berria gehitu da.");
+                addZenbakia.setText("");
+                addIzena.setText("");
+                addAbizena.setText("");
+            } else {
+                Alert alert = new Alert(AlertType.INFORMATION);
+                alert.setTitle("ADI!!!");
+                alert.setHeaderText("KONTUZ!!!");
+                alert.setContentText("Zenbakia zenbaki bat izan behar da");
+
+                alert.showAndWait();
+            }
+
+        } else {
+            Alert alert = new Alert(AlertType.INFORMATION);
+            alert.setTitle("ADI!!!");
+            alert.setHeaderText("KONTUZ!!!");
+            alert.setContentText("Gehienez 7 ikasle egon ahal dira");
+
+            alert.showAndWait();
+        }
     }
 
     @FXML

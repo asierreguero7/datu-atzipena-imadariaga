@@ -16,9 +16,11 @@ public class Memoria {
     
     public static ObservableList<Ikaslea> zerrendaSortu(){
         return FXCollections.observableArrayList(
-                new Ikaslea(1,"Jokin","Iribar"),
-                new Ikaslea(3, "Beñat", "Bizente"),
-                new Ikaslea(4, "Aitziber", "Vesga"),
-                new Ikaslea(5, "Gaizka", "Izagirre"));            
+                new Ikaslea(1,"Markel","Salgado"),
+                new Ikaslea(2, "Pablo", "Lopez"),
+                new Ikaslea(3, "Alvaro", "Higuera"),
+                new Ikaslea(4, "Asier", "Reguero"),   
+                new Ikaslea(5, "Joseba", "Hernandez"),
+                new Ikaslea(6, "Jon", "Unzalu"));
     }
 }

@@ -8,50 +8,51 @@
 
 <AnchorPane id="AnchorPane" prefHeight="264.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkg1.KalkulagailuaController">
     <children>
-               <Label layoutX="57.0" layoutY="18.0" text="KALKULAGAILUA">
+               <Label layoutX="99.0" layoutY="14.0" text="KALKULAGAILUA">
          <font>
             <Font name="Chilanka Regular" size="27.0" />
          </font></Label>
-         <Button fx:id="batu" layoutX="212.0" layoutY="78.0" onAction="#handleBatuAction" text="=">
-         <font>
-            <Font size="25.0" />
-         </font></Button>
-        <Label fx:id="batuketa" layoutX="277.0" layoutY="78.0" minHeight="16" minWidth="69" prefHeight="48.0" prefWidth="109.0">
+        <Label fx:id="emaitza" layoutX="188.0" layoutY="204.0" minHeight="16" minWidth="69" prefHeight="48.0" prefWidth="109.0">
          <font>
             <Font size="25.0" />
          </font></Label>
-        <TextField fx:id="batugai1" layoutX="17.0" layoutY="78.0" prefHeight="48.0" prefWidth="79.0">
+      <Button fx:id="gehi" layoutX="140.0" layoutY="102.0" mnemonicParsing="false" onAction="#handleGehiAction" onKeyPressed="#handleGehiAction" onMouseDragOver="#hoverGehi" text="+">
          <font>
-            <Font size="25.0" />
-         </font></TextField>
-        <TextField fx:id="batugai2" layoutX="129.0" layoutY="78.0" prefHeight="48.0" prefWidth="79.0">
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="242.0" layoutY="102.0" mnemonicParsing="false" onAction="#handleKenAction" onKeyPressed="#handleKenAction" onMouseDragOver="#hoverKen" text="-">
          <font>
-            <Font size="25.0" />
-         </font></TextField>
-        <Button fx:id="biderkatu" layoutX="212.0" layoutY="191.0" onAction="#handleBiderkatuAction" text="=">
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="bider" layoutX="142.0" layoutY="165.0" mnemonicParsing="false" onAction="#handleBiderAction" onKeyPressed="#handleBiderAction" onMouseDragOver="#hoverBider" text="x">
          <font>
-            <Font size="25.0" />
-         </font></Button>
-        <TextField fx:id="biderkagai1" layoutX="17.0" layoutY="187.0" prefHeight="48.0" prefWidth="79.0">
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="zati" layoutX="242.0" layoutY="165.0" mnemonicParsing="false" onAction="#handleZatiAction" onDragDetected="#hoverZati" onKeyPressed="#handleZatiAction" onMouseDragOver="#hoverZati" text="/">
          <font>
-            <Font size="25.0" />
-         </font></TextField>
-        <TextField fx:id="biderkagai2" layoutX="129.0" layoutY="187.0" prefHeight="48.0" prefWidth="79.0">
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="z1" alignment="CENTER_RIGHT" layoutX="51.0" layoutY="67.0" />
+      <TextField fx:id="z2" layoutX="227.0" layoutY="67.0" />
+      <Button layoutX="188.0" layoutY="165.0" mnemonicParsing="false" onAction="#handleBerAction" onKeyPressed="#handleKenAction" onMouseDragOver="#hoverBer" prefHeight="39.0" prefWidth="45.0" text="^ ">
          <font>
-            <Font size="25.0" />
-         </font></TextField>
-        <Label layoutX="102.0" layoutY="87.0" text="+">
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="188.0" layoutY="102.0" mnemonicParsing="false" onAction="#handleErroAction" onKeyPressed="#handleKenAction" onMouseDragOver="#hoverErro" prefHeight="39.0" prefWidth="45.0" text="√">
          <font>
-            <Font size="25.0" />
-         </font></Label>
-        <Label layoutX="105.0" layoutY="196.0" text="x">
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="op" layoutX="200.0" layoutY="66.0" prefHeight="17.0" prefWidth="26.0" textAlignment="CENTER">
          <font>
-            <Font size="25.0" />
-         </font></Label>
-        <Label fx:id="biderketa" layoutX="277.0" layoutY="190.0" minHeight="16" minWidth="69" prefHeight="48.0" prefWidth="109.0">
-         <font>
-            <Font size="25.0" />
-         </font></Label>
+            <Font size="18.0" />
+         </font>
+      </Label>
  
     </children>
 </AnchorPane>
