@@ -65,7 +65,7 @@ public class SQLite {
         String url = "jdbc:sqlite:datubaseak/test.db";
         
         // SQL statement for creating a new table
-        String sql = "CREATE TABLE IF NOT EXISTS ikasleak (\n"
+        String sql = "CREATE TABLE IF NOT EXISTS irakasleak (\n"
                 + "	id integer PRIMARY KEY,\n"
                 + "	izena text NOT NULL\n"
                 + ");";
@@ -98,7 +98,7 @@ public class SQLite {
      * @param capacity
      */
     public void insert(String izena) {
-        String sql = "INSERT INTO ikasleak (id, izena) VALUES(?,?)";
+        String sql = "INSERT INTO irakasleak (id, izena) VALUES(?,?)";
 
         try (Connection conn = this.connect();
                 PreparedStatement pstmt = conn.prepareStatement(sql)) {
@@ -107,7 +107,7 @@ public class SQLite {
             pstmt.executeUpdate();
         } catch (SQLException e) {
             if(e.getErrorCode() == 19){
-                System.out.println("Txertatu nahi duzun ikaslearen Id-a dagoeneko existitzen da!!!");  
+                System.out.println("Txertatu nahi duzun irakaslearen Id-a dagoeneko existitzen da!!!");  
             }
             
         }
@@ -118,17 +118,17 @@ public class SQLite {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String db="datubaseak/markelGuapo.db";
-        connect(db);
+        //String db="datubaseak/markelGuapo.db";
+        //connect(db);
         
         createNewDatabase("test.db");
         
         createNewTable();
 
         SQLite app = new SQLite();
+        
         // insert three new rows
-        app.insert("Txorizito");
-        app.insert("Albertito");
-        app.insert("Mirabito");
+        app.insert("madariaga");
+        app.insert("franco");
     }   
 }

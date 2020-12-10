@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<historiala>
+        
+    <sarrera id="1">
+                
+        <eguna>2020-09-23</eguna>
+                
+        <ikaslea>garai.iker</ikaslea>
+                
+        <tenperatura>36.5</tenperatura>
+            
+    </sarrera>
+        
+    <sarrera id="2">
+                
+        <eguna>2020-09-23</eguna>
+                
+        <ikaslea>sanchez.ane</ikaslea>
+                
+        <tenperatura>36.1</tenperatura>
+            
+    </sarrera>
+        
+    <sarrera id="3">
+                
+        <eguna>2020-09-23</eguna>
+                
+        <ikaslea>gorosti.jon</ikaslea>
+                
+        <tenperatura>36.0</tenperatura>
+            
+    </sarrera>
+        
+    <sarrera id="4">
+                
+        <eguna>2020-09-24</eguna>
+                
+        <ikaslea>garai.iker</ikaslea>
+                
+        <tenperatura>36.9</tenperatura>
+            
+    </sarrera>
+        
+    <sarrera id="5">
+                
+        <eguna>2020-09-24</eguna>
+                
+        <ikaslea>sanchez.ane</ikaslea>
+                
+        <tenperatura>35.9</tenperatura>
+            
+    </sarrera>
+        
+    <sarrera id="6">
+                
+        <eguna>2020-09-24</eguna>
+                
+        <ikaslea>gorosti.jon</ikaslea>
+                
+        <tenperatura>36.9</tenperatura>
+            
+    </sarrera>
+        
+    <sarrera id="7">
+                
+        <eguna>2020-09-25</eguna>
+                
+        <ikaslea>garai.iker</ikaslea>
+                
+        <konfinauta>bai</konfinauta>
+            
+    </sarrera>
+        
+    <sarrera id="8">
+                
+        <eguna>2020-09-25</eguna>
+                
+        <ikaslea>sanchez.ane</ikaslea>
+                
+        <tenperatura>36.2</tenperatura>
+            
+    </sarrera>
+        
+    <sarrera id="9">
+                
+        <eguna>2020-09-25</eguna>
+                
+        <ikaslea>gorosti.jon</ikaslea>
+                
+        <tenperatura>36.3</tenperatura>
+            
+    </sarrera>
+        
+    <sarrera id="10">
+                
+        <eguna>2020-09-26</eguna>
+                
+        <ikaslea>garai.iker</ikaslea>
+                
+        <konfinauta>bai</konfinauta>
+                
+        <pcr>-</pcr>
+            
+    </sarrera>
+        
+    <sarrera id="11">
+                
+        <eguna>2020-09-26</eguna>
+                
+        <ikaslea>sanchez.ane</ikaslea>
+                
+        <konfinauta>bai</konfinauta>
+                
+        <pcr>-</pcr>
+            
+    </sarrera>
+        
+    <sarrera id="12">
+                
+        <eguna>2020-09-26</eguna>
+                
+        <ikaslea>gorosti.jon</ikaslea>
+                
+        <konfinauta>bai</konfinauta>
+                
+        <pcr>+</pcr>
+            
+    </sarrera>
+        
+    <sarrera id="13">
+                
+        <eguna>2020-09-29</eguna>
+                
+        <ikaslea>garai.iker</ikaslea>
+                
+        <tenperatura>36.5</tenperatura>
+            
+    </sarrera>
+        
+    <sarrera id="14">
+                
+        <eguna>2020-09-29</eguna>
+                
+        <ikaslea>sanchez.ane</ikaslea>
+                
+        <tenperatura>36.1</tenperatura>
+            
+    </sarrera>
+        
+    <sarrera id="15">
+                
+        <eguna>2020-09-29</eguna>
+                
+        <ikaslea>gorosti.jon</ikaslea>
+                
+        <konfinauta>bai</konfinauta>
+            
+    </sarrera>
+        
+    <sarrera id="16">
+                
+        <eguna>2020-10-13</eguna>
+                
+        <ikaslea>garai.iker</ikaslea>
+                
+        <tenperatura>36.8</tenperatura>
+            
+    </sarrera>
+        
+    <sarrera id="17">
+                
+        <eguna>2020-10-13</eguna>
+                
+        <ikaslea>sanchez.ane</ikaslea>
+                
+        <tenperatura>36.9</tenperatura>
+            
+    </sarrera>
+        
+    <sarrera id="18">
+                
+        <eguna>2020-10-13</eguna>
+                
+        <ikaslea>gorosti.jon</ikaslea>
+                
+        <konfinauta>bai</konfinauta>
+                
+        <pcr>-</pcr>
+            
+    </sarrera>
+        
+    <sarrera id="19">
+                
+        <eguna>2020-10-14</eguna>
+                
+        <ikaslea>garai.iker</ikaslea>
+                
+        <tenperatura>36.5</tenperatura>
+            
+    </sarrera>
+        
+    <sarrera id="20">
+                
+        <eguna>2020-10-14</eguna>
+                
+        <ikaslea>sanchez.ane</ikaslea>
+                
+        <tenperatura>36.1</tenperatura>
+        	
+        <pcr>+</pcr>
+            
+    </sarrera>
+        
+    <sarrera id="21">
+                
+        <eguna>2020-10-14</eguna>
+                
+        <ikaslea>gorosti.jon</ikaslea>
+                
+        <konfinauta>ez</konfinauta>
+                
+        <tenperatura>36.5</tenperatura>
+            
+    </sarrera>
+    
+    <sarrera id="22">
+        <eguna>2020-11-02</eguna>
+        <ikaslea>garai.iker</ikaslea>
+        <tenperatura>36.0</tenperatura>
+        <konfinauta>ez</konfinauta>
+        <pcr> </pcr>
+    </sarrera>
+    <sarrera id="23">
+        <eguna>2020-11-02</eguna>
+        <ikaslea>sanchez.ane</ikaslea>
+        <tenperatura>36.0</tenperatura>
+        <konfinauta>ez</konfinauta>
+        <pcr> </pcr>
+    </sarrera>
+    <sarrera id="24">
+        <eguna>2020-11-02</eguna>
+        <ikaslea>gorosti.jon</ikaslea>
+        <tenperatura>36.0</tenperatura>
+        <konfinauta>ez</konfinauta>
+        <pcr> </pcr>
+    </sarrera>
+    <sarrera id="25">
+        <eguna>2020-11-03</eguna>
+        <ikaslea>garai.iker</ikaslea>
+        <tenperatura/>
+        <konfinauta>ez</konfinauta>
+        <pcr> </pcr>
+    </sarrera>
+    <sarrera id="26">
+        <eguna>2020-11-03</eguna>
+        <ikaslea>sanchez.ane</ikaslea>
+        <tenperatura>36.0</tenperatura>
+        <konfinauta>ez</konfinauta>
+        <pcr> </pcr>
+    </sarrera>
+    <sarrera id="27">
+        <eguna>2020-11-03</eguna>
+        <ikaslea>gorosti.jon</ikaslea>
+        <tenperatura>36.0</tenperatura>
+        <konfinauta>ez</konfinauta>
+        <pcr> </pcr>
+    </sarrera>
+    <sarrera id="28">
+        <eguna>2020-11-04</eguna>
+        <ikaslea>garai.iker</ikaslea>
+        <tenperatura/>
+        <konfinauta>ez</konfinauta>
+        <pcr>-</pcr>
+    </sarrera>
+    <sarrera id="29">
+        <eguna>2020-11-04</eguna>
+        <ikaslea>sanchez.ane</ikaslea>
+        <tenperatura>36.0</tenperatura>
+        <konfinauta>ez</konfinauta>
+        <pcr> </pcr>
+    </sarrera>
+    <sarrera id="30">
+        <eguna>2020-11-04</eguna>
+        <ikaslea>gorosti.jon</ikaslea>
+        <tenperatura>36.0</tenperatura>
+        <konfinauta>ez</konfinauta>
+        <pcr> </pcr>
+    </sarrera>
+    <sarrera id="31">
+        <eguna>2020-11-05</eguna>
+        <ikaslea>garai.iker</ikaslea>
+        <tenperatura>36.0</tenperatura>
+        <konfinauta>ez</konfinauta>
+        <pcr> </pcr>
+    </sarrera>
+    <sarrera id="32">
+        <eguna>2020-11-05</eguna>
+        <ikaslea>sanchez.ane</ikaslea>
+        <tenperatura>36.0</tenperatura>
+        <konfinauta>ez</konfinauta>
+        <pcr> </pcr>
+    </sarrera>
+    <sarrera id="33">
+        <eguna>2020-11-05</eguna>
+        <ikaslea>gorosti.jon</ikaslea>
+        <tenperatura>36.0</tenperatura>
+        <konfinauta>ez</konfinauta>
+        <pcr> </pcr>
+    </sarrera>
+    <sarrera id="34">
+        <eguna>2020-11-06</eguna>
+        <ikaslea>madariaga.idoia</ikaslea>
+        <tenperatura>42</tenperatura>
+        <konfinauta>ez</konfinauta>
+        <pcr>+ </pcr>
+    </sarrera>
+</historiala>
